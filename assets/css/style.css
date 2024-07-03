@@ -1,0 +1,86 @@
+@charset "ISO-8859-1";
+
+/* FONTS */
+.silkscreen-regular {
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.silkscreen-bold {
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h5, h2, span, input {
+	font-size: 25px;
+    font-weight: normal;
+    font-family: 'Silkscreen', sans-serif;
+    color: rgb(53, 38, 38);
+}
+
+p {
+	font-size: 15px;
+    font-weight: normal;
+    font-family: 'Silkscreen', sans-serif;
+}
+    
+/* BODY */
+body {
+ 	background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+}
+
+.coin {
+	width: 19px;
+}
+
+/* NAVIGATION BAR */
+.navbar {
+    background-color: rgba(226, 141, 151, 0.699);
+    box-shadow: 0 10px 8px #0000003a;
+}
+
+.title {
+    font-weight: normal;
+    font-family: 'Silkscreen', sans-serif;
+    color: white;
+}
+
+/* CARD */ 
+.card {
+    border: 0px;
+}
+
+.card-title, .card-text {
+    color: rgb(53, 38, 38);
+}
+
+/* ACTIVITIES */
+.activity {
+	background-color: rgba(226, 141, 151, 0.699);
+    box-shadow: 1 10px 8px #00000057;
+    size-adjust:initial;
+}
+
+.activity-title {
+    font-size: 30px;
+    color: white;
+}
+
+/* BUTTONS */
+.btn {
+	font-weight: normal;
+    font-family: 'Silkscreen', sans-serif;
+    background-color: #FFB813;
+    border: 1px solid #FFB813;
+}
+
+.btn:hover {
+  	background-color: #7E5109;
+      border: 1px solid #7E5109;
+    color: white;
+}
